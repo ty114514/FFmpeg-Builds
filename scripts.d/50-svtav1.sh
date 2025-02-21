@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_REPO="https://github.com/psy-ex/svt-av1-psy.git"
+SCRIPT_REPO="https://gitlab.com/AOMediaCodec/SVT-AV1"
 SCRIPT_COMMIT="master"
 
 ffbuild_enabled() {
@@ -9,7 +9,7 @@ ffbuild_enabled() {
 }
 
 ffbuild_dockerdl() {
-    echo "git clone \"$SCRIPT_REPO\" . && git checkout \"$SCRIPT_COMMIT\" SVT-AV1"
+    echo "git clone \"$SCRIPT_REPO\" . && git checkout \"$SCRIPT_COMMIT\""
 }
 
 ffbuild_dockerbuild() {
